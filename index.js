@@ -67,5 +67,5 @@ function calculatePayroll(employees) {
 }
 
 function findEmployeeByFirstName(employees, name) {
-  return this.find(employee => employee.firstName == name)
+  return employees.find(employee => employee.firstName == name)
 }
